@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", serif;
+    background: #a22;
+}
+
+body {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-size: 30px;
+    margin: 32px;
+    word-spacing: 32px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+section {
+    display: flex;
+}
+
+.consultar {
+    font-size: 25px;
+    background-color: hsla(350, 93%, 47%, 0.959);
+    cursor: pointer;
+    border-radius: 5px;
+    border:none;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.doçes {
+    width: 650px;
+    margin: 32px;
+    border-radius: 25px;
+}
+
+h1{
+    font-size: 52px;
+    margin-left: 32px;
+    color: #fff;
+    line-height: 150%;
+    margin-top: 60px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 32px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+button {
+    font-size: 25px;
+    margin-left: 32px;
+    color: white;
+    background-color: hsla(350, 93%, 47%, 0.959);
+    cursor: pointer;
+    border-radius: 5px;
+    border:none;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.facebook {
+    width: 50px;
+   border-radius: 28px;
+}
+
+.instagram {
+    width: 50px;
+    border-radius: 28px;
+}
+
+.whatssap {
+    width: 50px;
+    border-radius: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 43px;
+}
+
+a:hover{
+    color: black;
+}
+
+button:hover{
+    color: black;
+}
